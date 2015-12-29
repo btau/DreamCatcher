@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		6929C5A91C31E8F200F8374F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6929C5A81C31E8F200F8374F /* main.m */; };
 		6929C5AC1C31E8F200F8374F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6929C5AB1C31E8F200F8374F /* AppDelegate.m */; };
-		6929C5AF1C31E8F200F8374F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6929C5AE1C31E8F200F8374F /* ViewController.m */; };
 		6929C5B21C31E8F200F8374F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6929C5B01C31E8F200F8374F /* Main.storyboard */; };
 		6929C5B41C31E8F200F8374F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6929C5B31C31E8F200F8374F /* Images.xcassets */; };
 		6929C5B71C31E8F200F8374F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6929C5B51C31E8F200F8374F /* LaunchScreen.xib */; };
 		6929C5C31C31E8F200F8374F /* DreamCatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6929C5C21C31E8F200F8374F /* DreamCatcherTests.m */; };
+		6929C5CE1C31EA9C00F8374F /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6929C5CD1C31EA9C00F8374F /* ListViewController.m */; };
+		6929C5D11C31FD8F00F8374F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6929C5D01C31FD8F00F8374F /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		6929C5A81C31E8F200F8374F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6929C5AA1C31E8F200F8374F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6929C5AB1C31E8F200F8374F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6929C5AD1C31E8F200F8374F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6929C5AE1C31E8F200F8374F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6929C5B11C31E8F200F8374F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6929C5B31C31E8F200F8374F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6929C5B61C31E8F200F8374F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6929C5BC1C31E8F200F8374F /* DreamCatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamCatcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6929C5C11C31E8F200F8374F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6929C5C21C31E8F200F8374F /* DreamCatcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamCatcherTests.m; sourceTree = "<group>"; };
+		6929C5CC1C31EA9C00F8374F /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListViewController.h; path = DreamCatcher.xcodeproj/../ListViewController.h; sourceTree = SOURCE_ROOT; };
+		6929C5CD1C31EA9C00F8374F /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListViewController.m; path = DreamCatcher.xcodeproj/../ListViewController.m; sourceTree = SOURCE_ROOT; };
+		6929C5CF1C31FD8F00F8374F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = DreamCatcher.xcodeproj/../DetailViewController.h; sourceTree = SOURCE_ROOT; };
+		6929C5D01C31FD8F00F8374F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = DreamCatcher.xcodeproj/../DetailViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +86,10 @@
 			children = (
 				6929C5AA1C31E8F200F8374F /* AppDelegate.h */,
 				6929C5AB1C31E8F200F8374F /* AppDelegate.m */,
-				6929C5AD1C31E8F200F8374F /* ViewController.h */,
-				6929C5AE1C31E8F200F8374F /* ViewController.m */,
+				6929C5CC1C31EA9C00F8374F /* ListViewController.h */,
+				6929C5CD1C31EA9C00F8374F /* ListViewController.m */,
+				6929C5CF1C31FD8F00F8374F /* DetailViewController.h */,
+				6929C5D01C31FD8F00F8374F /* DetailViewController.m */,
 				6929C5B01C31E8F200F8374F /* Main.storyboard */,
 				6929C5B31C31E8F200F8374F /* Images.xcassets */,
 				6929C5B51C31E8F200F8374F /* LaunchScreen.xib */,
@@ -219,9 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6929C5AF1C31E8F200F8374F /* ViewController.m in Sources */,
 				6929C5AC1C31E8F200F8374F /* AppDelegate.m in Sources */,
 				6929C5A91C31E8F200F8374F /* main.m in Sources */,
+				6929C5CE1C31EA9C00F8374F /* ListViewController.m in Sources */,
+				6929C5D11C31FD8F00F8374F /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
